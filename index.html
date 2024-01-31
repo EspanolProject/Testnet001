@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -23,9 +24,19 @@
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
         }
-        <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/Bandera_de_Espa%C3%B1a.svg" alt="Spanish flag">
+
         bienvenidos-top h1 {
             font-size: 2em; /* Increased font size */
+            position: relative;
+        }
+
+        bienvenidos-top img {
+            width: 30px; /* Adjust the width of the flag */
+            height: auto; /* Maintain aspect ratio */
+            position: absolute;
+            top: 50%;
+            left: -40px; /* Adjust the distance from the left */
+            transform: translateY(-50%);
         }
 
         bienvenidos-bottom {
@@ -61,7 +72,8 @@
             text-align: center;
         }
 
-        h1, h2 {
+        h1,
+        h2 {
             font-family: 'Pacifico', cursive;
             color: #e74c3c;
         }
@@ -198,10 +210,11 @@
         }
     </style>
 </head>
+
 <body>
 
     <bienvenidos-top>
-        <h1>¡Bienvenidos!</h1>
+        <h1>¡Bienvenidos!<img src="https://upload.wikimedia.org/wikipedia/en/9/9a/Flag_of_Spain.svg" alt="Flag of Spain"></h1>
     </bienvenidos-top>
 
     <header>
@@ -243,7 +256,7 @@
         </div>
 
         <div class="paragraph">
-            <p>Do you want to learn another language? SpanishLingo is a free tool that can help you progress your knowledge in Spanish. We offer plenty of help such as vocabulary, grammar, pronunciation, and much more. And everything is and always will be free, because we believe education should not have a price. So start your account today to track your progress!</p>
+            <p>Do you want to learn another language? SpanishLingo is a free tool that can help you progress your knowledge in Spanish. We offer plenty of help such as vocabulary, grammar, pronunciation, and much more. And everything is and always will be free because we believe education should not have a price. So start your account today to track your progress!</p>
         </div>
     </section>
 
@@ -269,24 +282,5 @@
     </bienvenidos-bottom>
 
 </body>
+
 </html>
-
-
-
-
-
-
-
-
-
-   
-
-
-
-
-
-
-
-
-
-
