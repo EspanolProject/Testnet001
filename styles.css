@@ -1,0 +1,17 @@
+/* styles.css */
+
+/* Change the background color of the header */
+header {
+    background-color: #c0392b; /* Darker red color */
+}
+
+/* Change the font style of the navigation links */
+nav a {
+    font-family: 'Montserrat', sans-serif; /* Change font to Montserrat */
+}
+
+/* Increase the font size of the paragraph text */
+.paragraph p {
+    font-size: 1.3em; /* Increased font size */
+}
+
