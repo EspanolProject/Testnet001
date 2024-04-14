@@ -4,6 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>SpanishLingo - Let's Learn Together!</title>
+<style>
+    nav a:hover {
+        transform: scale(1.1); /* Scale effect on hover */
+    }
+</style>    
 <link href="styles.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Pacifico&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 <style>
@@ -132,7 +137,7 @@ font-size: 0.8em; /* Decreased font size */
 <section>
 <h2>Learn Spanish with Us!</h2>
 <p>Discover our amazing features:</p>
-<div class="feature-buttons">
+<div class="feature-buttons">  
 <button onclick="location.href='#'">Explore Lessons</button>
 <button onclick="location.href='#'">Expand Vocabulary</button>
 <button onclick="location.href='#'">Master Grammar</button>
@@ -162,11 +167,21 @@ font-size: 0.8em; /* Decreased font size */
 </div>
 <div class="bienvenidos-bottom">
 <footer>
-<p>© 2024 SpanishLingo. All rights reserved.</p>
-<p>Created by Daniela Echeverria</p>
-<p>Email: decheverria@student.clayton.edu</p>
-<p>March 24, 2024</p>
+    <p>© 2024 SpanishLingo. All rights reserved.</p>
+    <p>Created by Daniela Echeverria</p>
+    <p>Email: decheverria@student.clayton.edu</p>
+    <p>April 14, 2024</p>
+    <div class="footer-contact">
+        <p id="last-modified"></p>
+    </div>
+    <script src="updateDate.js"></script>
+    <script>
+        displayLastModifiedDate();
+    </script>
 </footer>
 </div>
 </body>
 </html>
+
+
+
